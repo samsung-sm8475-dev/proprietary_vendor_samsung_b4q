@@ -1787,6 +1787,12 @@
                 <!-- DEVICEPP_TX - DEVICEPP_TX_VOICE_ECNS -->
                 <graph_kv key="0xAD000000" value="0x0AD00001"/>
             </keys_and_values>
+            <keys_and_values StreamType="PAL_STREAM_VOICE_CALL" CustomConfig="bt_headset_nrec">
+                <!-- DEVICETX - BT_TX -->
+                <graph_kv key="0xA3000000" value="0xA3000002"/>
+                <!-- DEVICEPP_TX - DEVICEPP_TX_VOICE_ECNS_OFF -->
+                <graph_kv key="0xAD000000" value="0x0AD00005"/>
+            </keys_and_values>
             <keys_and_values StreamType="PAL_STREAM_VOICE_CALL" CustomConfig="translation">
                 <!-- DEVICETX - BT_TX -->
                 <graph_kv key="0xA3000000" value="0xA3000002"/>
@@ -1799,11 +1805,23 @@
                 <!-- DEVICEPP_TX - DEVICEPP_TX_VOIP_ECNS -->
                 <graph_kv key="0xAD000000" value="0x0AD00041"/>
             </keys_and_values>
+            <keys_and_values StreamType="PAL_STREAM_VOIP_TX" CustomConfig="bt_headset_nrec">
+                <!-- DEVICETX - BT_TX -->
+                <graph_kv key="0xA3000000" value="0xA3000002"/>
+                <!-- DEVICEPP_TX - DEVICEPP_TX_VOIP_ECNS_OFF -->
+                <graph_kv key="0xAD000000" value="0x0AD00045"/>
+            </keys_and_values>
             <keys_and_values StreamType="PAL_STREAM_VOIP_TX" CustomConfig="wifi_call">
                 <!-- DEVICETX - BT_TX -->
                 <graph_kv key="0xA3000000" value="0xA3000002"/>
                 <!-- DEVICEPP_TX - DEVICEPP_TX_VOWIFI_ECNS -->
                 <graph_kv key="0xAD000000" value="0x0AD00021"/>
+            </keys_and_values>
+            <keys_and_values StreamType="PAL_STREAM_VOIP_TX" CustomConfig="wifi_call_bt_headset_nrec">
+                <!-- DEVICETX - BT_TX -->
+                <graph_kv key="0xA3000000" value="0xA3000002"/>
+                <!-- DEVICEPP_TX - DEVICEPP_TX_VOWIFI_ECNS_OFF -->
+                <graph_kv key="0xAD000000" value="0x0AD00025"/>
             </keys_and_values>
             <keys_and_values StreamType="PAL_STREAM_DEEP_BUFFER">
                 <!-- DEVICETX - BT_TX -->

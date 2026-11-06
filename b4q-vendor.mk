@@ -149,8 +149,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/b4q/proprietary/vendor/lib64/camera/w_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/w_dual_calibration.bin
 
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth.audio@2.0 \
-    android.hardware.bluetooth.audio@2.1 \
     btaudio_offload_if \
     com.samsung.ois.mcu_stm32g \
     com.samsung.sensor.gc5035 \
@@ -247,6 +245,7 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.hdr \
     com.qti.feature2.mcreprocrt \
     com.qti.feature2.memcpy \
+    com.qti.feature2.mfsr.sm8450 \
     com.qti.feature2.mfsr \
     com.qti.feature2.ml \
     com.qti.feature2.mux \
@@ -278,8 +277,6 @@ PRODUCT_PACKAGES += \
     lib_SoundAlive_play_plus_ver500 \
     libagm \
     libar-pal \
-    libauto_framing_arcsoft.uniplugin@1.0 \
-    libautotracking_interface \
     libbluetooth_audio_session \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
@@ -302,11 +299,8 @@ PRODUCT_PACKAGES += \
     sensors.grip \
     sensors.ssc \
     libaudiosaplus_sec \
-    libsamsungSoundbooster_plus \
     libswdap \
     libswspatializer \
-    vendor.qti.hardware.bluetooth_audio@2.0 \
-    vendor.qti.hardware.bluetooth_audio@2.1 \
     vendor.samsung.hardware.bluetooth.a2dpsink@1.0 \
     vendor.samsung.hardware.bluetooth.audio@2.0 \
     vendor.samsung.hardware.bluetooth.audio@2.1 \
